@@ -1,0 +1,5 @@
+Medical appointment scheduling is one of the most crucial components of a patient’s visit. Not only can proper medical appointment scheduling create loyal and engaged patients, but it can also increase staff productivity, lessen front office distractions, and reduce other expenses. In addition, it can provide healthcare professionals with more time to accomplish other tasks.
+
+As you can see, medical appointment scheduling is an essential practice in the healthcare field. This fundamental skill may not sound like an exciting prospect for new healthcare professionals, but it is a vital task they will need to learn. In fact, many Medical Assistants are trained to fulfill appointment scheduling tasks in various environments.
+
+This article provides an in-depth guide on the art and science of medical appointment scheduling, one of the most essential healthcare procedures for medical staff.

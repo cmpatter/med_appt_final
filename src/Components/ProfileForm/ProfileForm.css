@@ -1,0 +1,75 @@
+/* src/Components/ProfileForm/ProfileForm.css */
+
+.profile-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+.profile-details, form {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-details h1 {
+  margin-bottom: 1rem;
+}
+
+.profile-details p {
+  margin: 0.5rem 0;
+}
+
+form label {
+  margin: 0.5rem 0;
+}
+
+form input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+
+form button[type="submit"] {
+  background-color: #2190FF;
+  color: #fff;
+}
+
+form button[type="button"] {
+  background-color: #f5f5f5;
+}
+
+form button:hover {
+  opacity: 0.9;
+}
+
+.cancel-button {
+  background-color: #f5f5f5;
+}
+
+/* Add hover effect for cancel button */
+.cancel-button:hover {
+  opacity: 0.9;
+}
+
+/* Optional: Responsive adjustments */
+@media (max-width: 600px) {
+  .profile-container {
+    padding: 1rem;
+  }
+
+  form input, form button {
+    width: 100%;
+  }
+}

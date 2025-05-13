@@ -1,0 +1,45 @@
+.reports-layout-wrapper {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.reports-layout {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.reports-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.reports-table th, .reports-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.reports-table th {
+  background-color: #f4f4f4;
+}
+
+.btn {
+  padding: 8px 16px;
+  margin: 0 5px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.view-report {
+  background-color: #4CAF50;
+}
+
+.download-report {
+  background-color: #f44336;
+}

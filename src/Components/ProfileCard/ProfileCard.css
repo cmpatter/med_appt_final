@@ -1,0 +1,108 @@
+/* Style for the profile card container */
+.profile-card {
+  position: absolute;
+  top: 60px; /* Adjust based on the navbar height */
+  right: 0;
+  background: linear-gradient(135deg, #f0f0f0, #ffffff); /* Gradient background for a shiny effect */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow for depth */
+  border-radius: 8px;
+  padding: 1rem;
+  width: 300px; /* Adjusted width to accommodate form elements */
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Style for the profile picture */
+.profile-card .profile-pic {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  border: 3px solid #2190FF; /* Adding a border to the profile picture */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for a 3D effect */
+  transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect for the profile picture */
+.profile-card .profile-pic:hover {
+  transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+/* Style for the title */
+.profile-card h3 {
+  margin: 0;
+  font-size: 1.4rem; /* Slightly larger font size for emphasis */
+  color: #333; /* Darker text color for better readability */
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle text shadow */
+}
+
+/* Style for profile details */
+.profile-card .profile-details {
+  width: 100%;
+  text-align: center;
+}
+
+.profile-card p {
+  margin: 0.5rem 0;
+  font-size: 1rem; /* Adjusted font size for better readability */
+  color: #555; /* Slightly lighter color for profile details */
+}
+
+/* Style for form elements */
+.profile-card form {
+  width: 100%;
+}
+
+.profile-card label {
+  display: block;
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  color: #333; /* Darker color for labels */
+}
+
+.profile-card input {
+  width: 100%;
+  padding: 0.6rem; /* Increased padding for better user experience */
+  margin-top: 0.25rem;
+  border: 1px solid #ddd; /* Lighter border color */
+  border-radius: 5px;
+  background-color: #f9f9f9; /* Light background color for inputs */
+  transition: border-color 0.3s ease; /* Smooth transition for border color change */
+}
+
+.profile-card input:focus {
+  border-color: #2190FF; /* Highlight border on focus */
+}
+
+/* Style for buttons */
+.profile-card button {
+  width: 100%;
+  padding: 0.6rem; /* Increased padding for better button size */
+  border: 1px solid #2190FF;
+  color: #2190FF;
+  background-color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 0.5rem;
+  transition: all 0.3s ease; /* Smooth transition for button effects */
+}
+
+.profile-card button:hover {
+  background-color: #2190FF;
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow on hover */
+}
+
+/* Additional style for cancel button */
+.profile-card .cancel-button {
+  border-color: #ddd; /* Lighter border for cancel button */
+  color: #666; /* Darker text color for cancel button */
+}
+
+.profile-card .cancel-button:hover {
+  background-color: #eee; /* Light background color for hover effect */
+  color: #333; /* Darker text color on hover */
+}
