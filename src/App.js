@@ -45,9 +45,9 @@ function App() {
   };
 
   const doctors = [
-    { name: 'Dr. James Brown', speciality: 'Cardiologist', experience: 10, ratings: 4.5, profilePic: null },
-    { name: 'Dr. Jameson Daniels', speciality: 'Neurologist', experience: 8, ratings: 4.7, profilePic: null },
-    { name: 'Dr. Sam Brown', speciality: 'Pediatrician', experience: 15, ratings: 4.8, profilePic: null },
+    { name: 'Dr. Phil', speciality: 'Psychiatry', experience: 30, ratings: 3.0, profilePic: null },
+    { name: 'Dr. Doom', speciality: 'Orthopedics', experience: 4, ratings: 4.0, profilePic: null },
+    { name: 'Dr. Who', speciality: 'Otorhinolaryngology', experience: 99, ratings: 5.0, profilePic: null },
   ];
 
   return (
